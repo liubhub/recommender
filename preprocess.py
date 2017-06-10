@@ -111,7 +111,7 @@ for r in rating_test:
     M_test[r.user_id - 1][r.item_id - 1] = r.rating
 
 r_cols = ['user_id', 'movie_id', 'rating', 'unix_timestamp']
-ratings = pd.read_csv('data/u2.base', sep='\t', names=r_cols, encoding='latin-1')
+ratings = pd.read_csv('data/u1.base', sep='\t', names=r_cols, encoding='latin-1')
 ratings = ratings.drop('unix_timestamp',axis=1)
-ratings_test = pd.read_csv('data/u2.test', sep='\t', names=r_cols, encoding='latin-1')
+ratings_test = pd.read_csv('data/u1.test', sep='\t', names=r_cols, encoding='latin-1')
 ratings_test = ratings_test.drop('unix_timestamp',axis=1)
