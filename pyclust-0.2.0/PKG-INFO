@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: pyclust
+Version: 0.2.0
+Summary: Data Clustering Algorithms in Python
+Home-page: https://github.com/mirjalil/pyclust
+Author: Vahid Mirjalili
+Author-email: vmirjalily@gmail.com
+License: GPLv3
+Description: 
+        
+        
+         Contact
+        =============
+        
+        email: vmirjalily@gmail.com
+        Twitter: https://twitter.com/vmirly
+        
+        URL for this project: https://github.com/mirjalil/pyclust
+        
+        
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
